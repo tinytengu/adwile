@@ -12,7 +12,10 @@
 
 ```bash
 python3 -m venv .venv
-source ./.venv/scripts/activate
+# Windows
+.\.venv\Scripts\activate
+# UNIX
+source .venv/bin/activate
 ```
 
 2. Установить зависимости проекта
